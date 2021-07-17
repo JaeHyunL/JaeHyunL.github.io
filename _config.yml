@@ -14,12 +14,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "Kr"
+title                    : "Develop log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "JaehyunL"
+description              : "공부 , 커리어 관리"
 url                      : "https://JaeHyunL.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -79,7 +79,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -120,7 +120,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/JaeHyunL"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
