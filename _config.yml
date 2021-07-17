@@ -176,7 +176,10 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - README.md
   - tmp
+  - jekyll-theme-hamilton.gemspec
+  - scripts/
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
@@ -228,6 +231,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
