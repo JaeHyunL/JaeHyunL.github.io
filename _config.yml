@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-name             : "JaeHyunL"
+  name             : "JaeHyunL"
 #  avatar           : "/assets/images/bio-photo.jpg"
-bio              : "I am an **amazing** person."
-location         : "Seoul"
-email            : "swaa23@gmail.com"
+  bio              : "I am an **amazing** person."
+  location         : "Seoul"
+  email            : "swaa23@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
