@@ -105,7 +105,7 @@ Loading library to get build settings and version: hdf5.dll
   note: This error originates from a subprocess, and is likely not a problem with pip
 ```
 
-다른 에러 로그가 떳다 ..
+다른 에러 로그가 떳다 ...
 
 찾아보니 로컬에 환경변수가 엉망이였다 파이썬도 3.7 32bit로 설치 되어있었다
 
