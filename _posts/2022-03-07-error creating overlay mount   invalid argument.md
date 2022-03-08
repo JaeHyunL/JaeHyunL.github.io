@@ -7,3 +7,6 @@
 하지만 컨테이너를 지우고 이미지에서 다시 실행하니 시작은 되었음.
 
 관련 링크 https://github.com/docker/for-linux/issues/711
+
+
+
