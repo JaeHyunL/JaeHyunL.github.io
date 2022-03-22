@@ -1,4 +1,4 @@
-# Hamilton <!-- omit ain toc -->
+# [Hamilton] <!-- omit ain toc -->
 
 A minimal and beautiful Jekyll theme best for writing and note-taking.
 
