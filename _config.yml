@@ -97,11 +97,12 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+name: "이재현"
 
 # Site Author
 author:
-  name             : "JaeHyunL"
-#  avatar           : "/assets/images/bio-photo.jpg"
+  name: "이재현"
+  avatar           : "https://avatars.githubusercontent.com/u/48937399?v=4"
   bio              : "I am an **amazing** person."
   location         : "Seoul"
   email            : "swaa23@gmail.com"
