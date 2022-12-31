@@ -42,26 +42,36 @@ layout: default
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
-          <a href="/?page=1"> 맨 앞으로</a>
-          <!-- @@TODO@@ 아 졸려 내일부터 여기서 부터,.,, 페이지 네이션 기능이 부족함-->
-          <a href="/page={totla_page}"> 맨 뒤로</a>
-
+          <!-- <div> {{ paginator }} </div>
+          <div> {{ paginator.next_page }}</div> -->
+          <li>
+            <a href="/" class="pager-edge">•</a>
+          </li>
+          {%- if {paginator.previous_page | minus:1} %}
+            <li>
+              <a href="{{ paginator.previous_page_path|minus:1 | relative_url }}" class="previous-page2">{{ paginator.previous_page|minus:1 }} </a>              
+            </li> 
           {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
+            <li>
+              <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }} </a>
+            </li>
+          {%- else %}
         {%- endif %}
-        <div>{{paginator}}</div>
-          <li><div class="current-page">{{ paginator.page }}</div></li>
+          <li>
+            <div class="current-page"> {{ paginator.page }} </div>
+          </li>
         {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+          <li>
+            <a href="{{ paginator.next_page_path | relative_url }}" class="next-page"> 
+              {{ paginator.next_page }} 
+            </a>
+          </li>
         {%- else %}
-          <li><a href="{{ paginator.next_page_path  | relative_url }}" class="next2-page">{{ paginator.next_page }}</a></li>
-          <li><a href="{{ paginator.next_page_path  | relative_url }}" class="next3-page">{{ paginator.next_page }}</a></li>
-            
-        <li><div class="pager-edge">•</div></li>
+        
         {%- endif %}
-
+          <li>
+            <a class="pager-edge" href="/page{{paginator.total_pages}}">•</a>
+          </li>
         </ul>
       </div>
     {%- endif %}
